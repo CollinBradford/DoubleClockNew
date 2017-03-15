@@ -1,0 +1,2 @@
+select figure at 4181 945 8 -branches -sn=3
+select all in 4181 945 4260 961 -branches -enclosed -sn=3
