@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 03/10/2017 16:49:43
+-- /___/   /\     Timestamp : 03/15/2017 14:39:44
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -sympath D:/cbradford/DoubleClock/ipcore_dir -sympath D:/cbradford/DoubleClock/GEL_CAPTAN/ipcore_dir -intstyle ise -family virtex4 -flat -suppress -vhdl D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf -w D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.sch
+--Command: sch2hdl -sympath D:/cbradford/DoubleClockNew/ipcore_dir -sympath D:/cbradford/DoubleClockNew/GEL_CAPTAN/ipcore_dir -intstyle ise -family virtex4 -flat -suppress -vhdl D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf -w D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.sch
 --Design Name: TOP_LEVEL
 --Device: virtex4
 --Purpose:
@@ -1478,7 +1478,7 @@ begin
             CLKIN_PERIOD => 2.66666667)
    -- synopsys translate_on
       port map (CLKFB=>XLXN_12923,
-                CLKIN=>CLK_187_5,
+                CLKIN=>CLK_375,
                 RST=>dcm_reset_2,
                 CLKDV=>open,
                 CLKFX=>open,

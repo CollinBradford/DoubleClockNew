@@ -1,4 +1,4 @@
-xst -intstyle ise -ifn "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.xst" -ofn "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.xst" -ofn "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.syr" 
 ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -sd ipcore_dir -aul -nt timestamp -uc TOP_LEVEL.ucf -p xc4vlx25-ff668-10 TOP_LEVEL_cs.ngc TOP_LEVEL.ngd  
 map -intstyle ise -p xc4vlx25-ff668-10 -timing -logic_opt on -ol std -t 1 -register_duplication off -global_opt off -ir off -pr off -u -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
 par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 

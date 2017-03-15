@@ -1099,7 +1099,7 @@
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="Float" />
             </attr>
-            <blockpin signalname="CLK_187_5" name="CLKIN" />
+            <blockpin signalname="CLK_375" name="CLKIN" />
             <blockpin signalname="XLXN_12923" name="CLKFB" />
             <blockpin signalname="dcm_reset_2" name="RST" />
             <blockpin signalname="XLXN_12697" name="CLK0" />
@@ -3014,7 +3014,7 @@
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3632" y="1456" type="branch" />
             <wire x2="3712" y1="1456" y2="1456" x1="3632" />
         </branch>
-        <branch name="CLK_187_5">
+        <branch name="CLK_375">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3840" y="1984" type="branch" />
             <wire x2="3968" y1="1984" y2="1984" x1="3840" />
         </branch>

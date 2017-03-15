@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: TOP_LEVEL.prj
 
@@ -110,127 +110,127 @@ Cores Search Directories           : {"../ipcore_dir" "ipcore_dir"  }
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/params_package.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/params_package.vhd" in Library work.
 Package <params_package> compiled.
 Package body <params_package> compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/address_container.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/address_container.vhd" in Library work.
 Entity <address_container> compiled.
 Entity <address_container> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/arp_reply.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/arp_reply.vhd" in Library work.
 Entity <arp_reply> compiled.
 Entity <arp_reply> (Architecture <arp_reply_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/or33.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/or33.vhd" in Library work.
 Entity <or33> compiled.
 Entity <or33> (Architecture <or33_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/ip_checksum_calc.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/ip_checksum_calc.vhd" in Library work.
 Entity <ip_checksum_calc> compiled.
 Entity <ip_checksum_calc> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/create_packet.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/create_packet.vhd" in Library work.
 Entity <create_packet> compiled.
 Entity <create_packet> (Architecture <create_packet_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/dataout_mux.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/dataout_mux.vhd" in Library work.
 Entity <dataout_mux> compiled.
 Entity <dataout_mux> (Architecture <dataout_mux_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/decipherer.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/decipherer.vhd" in Library work.
 Entity <decipherer> compiled.
 Entity <decipherer> (Architecture <decipherer_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/filter_data_out.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/filter_data_out.vhd" in Library work.
 Entity <filter_data_out> compiled.
 Entity <filter_data_out> (Architecture <filter_data_out_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/icmp_ping_checksum_calc.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/icmp_ping_checksum_calc.vhd" in Library work.
 Entity <icmp_ping_checksum_calc> compiled.
 Entity <icmp_ping_checksum_calc> (Architecture <icmp_ping_checksum_calc_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/icmp_ping_shift_reg.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/icmp_ping_shift_reg.vhd" in Library work.
 Entity <icmp_ping_shift_reg> compiled.
 Entity <icmp_ping_shift_reg> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/udp_data_splicer.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/udp_data_splicer.vhd" in Library work.
 Entity <udp_data_splicer> compiled.
 Entity <udp_data_splicer> (Architecture <udp_data_splicer_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/user_addrs_mux.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/user_addrs_mux.vhd" in Library work.
 Entity <user_addrs_mux> compiled.
 Entity <user_addrs_mux> (Architecture <user_addrs_mux_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/ipcore_dir/DATA_FIFO_0.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/ipcore_dir/DATA_FIFO_0.vhd" in Library work.
 Entity <DATA_FIFO_0> compiled.
 Entity <DATA_FIFO_0> (Architecture <DATA_FIFO_0_a>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/ipcore_dir/INFO_FIFO_0.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/ipcore_dir/INFO_FIFO_0.vhd" in Library work.
 Entity <INFO_FIFO_0> compiled.
 Entity <INFO_FIFO_0> (Architecture <INFO_FIFO_0_a>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/ipcore_dir/ADDR_FIFO.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/ipcore_dir/ADDR_FIFO.vhd" in Library work.
 Entity <ADDR_FIFO> compiled.
 Entity <ADDR_FIFO> (Architecture <ADDR_FIFO_a>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/burst_controller_sm.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/burst_controller_sm.vhd" in Library work.
 Entity <burst_controller_sm> compiled.
 Entity <burst_controller_sm> (Architecture <burst_controller_sm_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/rx_ctl.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/rx_ctl.vhd" in Library work.
 Entity <rx_ctl> compiled.
 Entity <rx_ctl> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/ram_comm_dec.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/ram_comm_dec.vhd" in Library work.
 Entity <ram_comm_dec> compiled.
 Entity <ram_comm_dec> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/tx_seq_ctl.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/tx_seq_ctl.vhd" in Library work.
 Entity <tx_seq_ctl> compiled.
 Entity <tx_seq_ctl> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd" in Library work.
 Entity <ethernet_controller> compiled.
 Entity <ethernet_controller> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/xmii_handler.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/xmii_handler.vhd" in Library work.
 Entity <MII_100_1000_handler> compiled.
 Entity <MII_100_1000_handler> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/crc_splice.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/crc_splice.vhd" in Library work.
 Entity <crc_splice> compiled.
 Entity <crc_splice> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/ethernet_controller_wrapper.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/ethernet_controller_wrapper.vhd" in Library work.
 Entity <ethernet_controller_wrapper> compiled.
 Entity <ethernet_controller_wrapper> (Architecture <arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/data_manager.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" in Library work.
 Entity <data_manager> compiled.
 Entity <data_manager> (Architecture <BEHAVIORAL>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/burst_traffic_controller.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/burst_traffic_controller.vhd" in Library work.
 Entity <burst_traffic_controller> compiled.
 Entity <burst_traffic_controller> (Architecture <burst_traffic_controller_arch>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/reset_mgr.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/reset_mgr.vhd" in Library work.
 Entity <reset_mgr> compiled.
 Entity <reset_mgr> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/VERSION_BLK.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/VERSION_BLK.vhd" in Library work.
 Entity <VERSION_BLK> compiled.
 Entity <VERSION_BLK> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/MUX64_8.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/MUX64_8.vhd" in Library work.
 Entity <MUX64_8> compiled.
 Entity <MUX64_8> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/buffer_10bit.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/buffer_10bit.vhd" in Library work.
 Entity <buffer_10bit> compiled.
 Entity <buffer_10bit> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/trigger_recv_blk.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/trigger_recv_blk.vhd" in Library work.
 Entity <trigger_recv_blk> compiled.
 Entity <trigger_recv_blk> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/oei/ethernet_interface.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/oei/ethernet_interface.vhd" in Library work.
 Entity <ethernet_interface> compiled.
 Entity <ethernet_interface> (Architecture <BEHAVIORAL>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/Pulser.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/Pulser.vhd" in Library work.
 Entity <Pulser> compiled.
 Entity <Pulser> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/ipcore_dir/ethernet_FIFO.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/ipcore_dir/ethernet_FIFO.vhd" in Library work.
 Entity <ethernet_FIFO> compiled.
 Entity <ethernet_FIFO> (Architecture <ethernet_FIFO_a>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/PeakFinder.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/PeakFinder.vhd" in Library work.
 Entity <PeakFinder> compiled.
 Entity <PeakFinder> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/data_send.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/data_send.vhd" in Library work.
 Entity <data_send> compiled.
 Entity <data_send> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/psudoData.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/psudoData.vhd" in Library work.
 Entity <psudoData> compiled.
 Entity <psudoData> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/psudo_data_allOne.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/psudo_data_allOne.vhd" in Library work.
 Entity <psudo_data_allOne> compiled.
 Entity <psudo_data_allOne> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/ClockLatchSignals.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/ClockLatchSignals.vhd" in Library work.
 Entity <ClockLatchSignals> compiled.
 Entity <ClockLatchSignals> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/ipcore_dir/ADC_FIFO.vhd" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/ipcore_dir/ADC_FIFO.vhd" in Library work.
 Entity <ADC_FIFO> compiled.
 Entity <ADC_FIFO> (Architecture <ADC_FIFO_a>) compiled.
-Compiling vhdl file "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" in Library work.
+Compiling vhdl file "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" in Library work.
 Entity <FD8RE_MXILINX_TOP_LEVEL> compiled.
 Entity <FD8RE_MXILINX_TOP_LEVEL> (Architecture <BEHAVIORAL>) compiled.
 Entity <FD16RE_MXILINX_TOP_LEVEL> compiled.
@@ -357,13 +357,13 @@ Analyzing Entity <TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
     Set user-defined property "FACTORY_JF =  F0F0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "PHASE_SHIFT =  0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "STARTUP_WAIT =  FALSE" for instance <XLXI_3410> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_3432_0" for instance <XLXI_3432> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_4136> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_4136> in unit <TOP_LEVEL>.
@@ -503,7 +503,7 @@ WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248:
     Set user-defined property "DRIVE =  12" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  FAST" for instance <XLXI_5999> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1522: Unconnected output port 'O' of component 'M2_1_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1522: Unconnected output port 'O' of component 'M2_1_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_6004_1" for instance <XLXI_6004> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6016> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6025> in unit <TOP_LEVEL>.
@@ -639,7 +639,7 @@ WARNING:Xst:753 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1522:
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "HU_SET =  XLXI_6247_6" for instance <XLXI_6247> in unit <TOP_LEVEL>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1915: Instantiating black box module <ethernet_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1915: Instantiating black box module <ethernet_FIFO>.
     Set user-defined property "HU_SET =  XLXI_6251_5" for instance <XLXI_6251> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_6291> in unit <TOP_LEVEL>.
     Set user-defined property "DRIVE =  12" for instance <XLXI_6291> in unit <TOP_LEVEL>.
@@ -661,7 +661,7 @@ WARNING:Xst:2211 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 1915
     Set user-defined property "DRIVE =  12" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6339> in unit <TOP_LEVEL>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf" line 2053: Instantiating black box module <ADC_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 2053: Instantiating black box module <ADC_FIFO>.
 Entity <TOP_LEVEL> analyzed. Unit <TOP_LEVEL> generated.
 
 Analyzing Entity <D4_16E_MXILINX_TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
@@ -702,20 +702,20 @@ Analyzing Entity <trigger_recv_blk> in library <work> (Architecture <Behavioral>
 Entity <trigger_recv_blk> analyzed. Unit <trigger_recv_blk> generated.
 
 Analyzing Entity <ethernet_interface> in library <work> (Architecture <BEHAVIORAL>).
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_interface.vhd" line 145: Unconnected output port 'udp_fwd_port' of component 'ethernet_controller_wrapper'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_interface.vhd" line 145: Unconnected output port 'udp_fwd_port' of component 'ethernet_controller_wrapper'.
 Entity <ethernet_interface> analyzed. Unit <ethernet_interface> generated.
 
 Analyzing Entity <ethernet_controller_wrapper> in library <work> (Architecture <arch>).
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller_wrapper.vhd" line 212: Unconnected output port 'CRC_end' of component 'crc_gen'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller_wrapper.vhd" line 243: Unconnected output port 'CRC_end' of component 'crc_gen'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller_wrapper.vhd" line 243: Unconnected output port 'CRC_out' of component 'crc_gen'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller_wrapper.vhd" line 212: Unconnected output port 'CRC_end' of component 'crc_gen'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller_wrapper.vhd" line 243: Unconnected output port 'CRC_end' of component 'crc_gen'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller_wrapper.vhd" line 243: Unconnected output port 'CRC_out' of component 'crc_gen'.
 Entity <ethernet_controller_wrapper> analyzed. Unit <ethernet_controller_wrapper> generated.
 
 Analyzing Entity <ethernet_controller> in library <work> (Architecture <arch>).
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd" line 435: Unconnected output port 'arp_search_ip' of component 'decipherer'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd" line 435: Unconnected output port 'dest_mac' of component 'decipherer'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd" line 435: Unconnected output port 'is_idle' of component 'decipherer'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd" line 435: Unconnected output port 'is_udp' of component 'decipherer'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd" line 435: Unconnected output port 'arp_search_ip' of component 'decipherer'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd" line 435: Unconnected output port 'dest_mac' of component 'decipherer'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd" line 435: Unconnected output port 'is_idle' of component 'decipherer'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd" line 435: Unconnected output port 'is_udp' of component 'decipherer'.
 Entity <ethernet_controller> analyzed. Unit <ethernet_controller> generated.
 
 Analyzing Entity <address_container> in library <work> (Architecture <arch>).
@@ -781,24 +781,24 @@ Analyzing Entity <crc_splice> in library <work> (Architecture <arch>).
 Entity <crc_splice> analyzed. Unit <crc_splice> generated.
 
 Analyzing Entity <data_manager> in library <work> (Architecture <BEHAVIORAL>).
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 331: Instantiating black box module <DATA_FIFO_0>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 341: Instantiating black box module <INFO_FIFO_0>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 351: Unconnected output port 'empty' of component 'ADDR_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 351: Unconnected output port 'full' of component 'ADDR_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 351: Instantiating black box module <ADDR_FIFO>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 362: Unconnected output port 'empty' of component 'ADDR_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 362: Unconnected output port 'full' of component 'ADDR_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 362: Instantiating black box module <ADDR_FIFO>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 373: Instantiating black box module <DATA_FIFO_0>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 383: Instantiating black box module <INFO_FIFO_0>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 393: Instantiating black box module <DATA_FIFO_0>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 403: Instantiating black box module <INFO_FIFO_0>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 413: Unconnected output port 'empty' of component 'ADDR_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 413: Unconnected output port 'full' of component 'ADDR_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 413: Instantiating black box module <ADDR_FIFO>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 424: Unconnected output port 'empty' of component 'ADDR_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 424: Unconnected output port 'full' of component 'ADDR_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClock/oei/data_manager.vhd" line 424: Instantiating black box module <ADDR_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 331: Instantiating black box module <DATA_FIFO_0>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 341: Instantiating black box module <INFO_FIFO_0>.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 351: Unconnected output port 'empty' of component 'ADDR_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 351: Unconnected output port 'full' of component 'ADDR_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 351: Instantiating black box module <ADDR_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 362: Unconnected output port 'empty' of component 'ADDR_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 362: Unconnected output port 'full' of component 'ADDR_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 362: Instantiating black box module <ADDR_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 373: Instantiating black box module <DATA_FIFO_0>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 383: Instantiating black box module <INFO_FIFO_0>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 393: Instantiating black box module <DATA_FIFO_0>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 403: Instantiating black box module <INFO_FIFO_0>.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 413: Unconnected output port 'empty' of component 'ADDR_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 413: Unconnected output port 'full' of component 'ADDR_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 413: Instantiating black box module <ADDR_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 424: Unconnected output port 'empty' of component 'ADDR_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 424: Unconnected output port 'full' of component 'ADDR_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/oei/data_manager.vhd" line 424: Instantiating black box module <ADDR_FIFO>.
 Entity <data_manager> analyzed. Unit <data_manager> generated.
 
 Analyzing Entity <burst_controller_sm> in library <work> (Architecture <burst_controller_sm_arch>).
@@ -837,17 +837,17 @@ Analyzing Entity <FD8RE_MXILINX_TOP_LEVEL> in library <work> (Architecture <BEHA
 Entity <FD8RE_MXILINX_TOP_LEVEL> analyzed. Unit <FD8RE_MXILINX_TOP_LEVEL> generated.
 
 Analyzing Entity <PeakFinder> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "D:/cbradford/DoubleClock/GEL_CAPTAN/PeakFinder.vhd" line 53: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/PeakFinder.vhd" line 53: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <data_in>, <reset>
 Entity <PeakFinder> analyzed. Unit <PeakFinder> generated.
 
 Analyzing Entity <data_send> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "D:/cbradford/DoubleClock/GEL_CAPTAN/data_send.vhd" line 54: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/data_send.vhd" line 54: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <rst>, <empty>
 Entity <data_send> analyzed. Unit <data_send> generated.
 
 Analyzing Entity <psudoData> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "D:/cbradford/DoubleClock/GEL_CAPTAN/psudoData.vhd" line 40: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/psudoData.vhd" line 40: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <counter>, <counter_two>, <reset>
 INFO:Xst:2679 - Register <delayCounter> in unit <psudoData> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
 Entity <psudoData> analyzed. Unit <psudoData> generated.
@@ -856,7 +856,7 @@ Analyzing Entity <psudo_data_allOne> in library <work> (Architecture <Behavioral
 Entity <psudo_data_allOne> analyzed. Unit <psudo_data_allOne> generated.
 
 Analyzing Entity <ClockLatchSignals> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "D:/cbradford/DoubleClock/GEL_CAPTAN/ClockLatchSignals.vhd" line 59: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/ClockLatchSignals.vhd" line 59: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <rst>, <triggered>, <done>, <delay>, <clock_place>
 Entity <ClockLatchSignals> analyzed. Unit <ClockLatchSignals> generated.
 
@@ -872,12 +872,12 @@ INFO:Xst:2679 - Register <internal_dout_50$mux0008> in unit <ethernet_interface>
 INFO:Xst:2679 - Register <internal_eth_dout_50$mux0008> in unit <ethernet_interface> has a constant value of 0 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <VERSION_BLK>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/VERSION_BLK.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/VERSION_BLK.vhd".
 Unit <VERSION_BLK> synthesized.
 
 
 Synthesizing Unit <MUX64_8>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/MUX64_8.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/MUX64_8.vhd".
     Found 64-bit 8-to-1 multiplexer for signal <muxout>.
     Summary:
 	inferred  64 Multiplexer(s).
@@ -885,12 +885,12 @@ Unit <MUX64_8> synthesized.
 
 
 Synthesizing Unit <buffer_10bit>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/buffer_10bit.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/buffer_10bit.vhd".
 Unit <buffer_10bit> synthesized.
 
 
 Synthesizing Unit <trigger_recv_blk>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/trigger_recv_blk.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/trigger_recv_blk.vhd".
     Found 1-bit register for signal <trig>.
     Found 32-bit up counter for signal <cnt_sig>.
     Found 1-bit register for signal <trig_in>.
@@ -902,7 +902,7 @@ Unit <trigger_recv_blk> synthesized.
 
 
 Synthesizing Unit <Pulser>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/Pulser.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/Pulser.vhd".
     Found 8-bit up counter for signal <temp>.
     Summary:
 	inferred   1 Counter(s).
@@ -910,7 +910,7 @@ Unit <Pulser> synthesized.
 
 
 Synthesizing Unit <PeakFinder>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/PeakFinder.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/PeakFinder.vhd".
 WARNING:Xst:1305 - Output <sig_compare_test> is never assigned. Tied to value 0.
     Found 1-bit register for signal <out_en_sig>.
     Found 16-bit up counter for signal <samplesSinceTrig>.
@@ -926,7 +926,7 @@ Unit <PeakFinder> synthesized.
 
 
 Synthesizing Unit <data_send>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/data_send.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/data_send.vhd".
 WARNING:Xst:647 - Input <b_enable> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <b_data_we>.
     Found 8-bit up counter for signal <count_delay>.
@@ -939,7 +939,7 @@ Unit <data_send> synthesized.
 
 
 Synthesizing Unit <psudoData>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/psudoData.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/psudoData.vhd".
 WARNING:Xst:647 - Input <delay> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <delayCounter> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 8-bit up accumulator for signal <counter>.
@@ -951,12 +951,12 @@ Unit <psudoData> synthesized.
 
 
 Synthesizing Unit <psudo_data_allOne>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/psudo_data_allOne.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/psudo_data_allOne.vhd".
 Unit <psudo_data_allOne> synthesized.
 
 
 Synthesizing Unit <ClockLatchSignals>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/ClockLatchSignals.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/ClockLatchSignals.vhd".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:737 - Found 8-bit latch for signal <signals>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 3-bit latch for signal <clock_place>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -974,7 +974,7 @@ Unit <ClockLatchSignals> synthesized.
 
 
 Synthesizing Unit <burst_traffic_controller>.
-    Related source file is "D:/cbradford/DoubleClock/oei/burst_traffic_controller.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/burst_traffic_controller.vhd".
     Found 1-bit register for signal <BURST_END_PACKET>.
     Found 34-bit comparator less for signal <BURST_END_PACKET$cmp_lt0000> created at line 66.
     Found 34-bit up counter for signal <clocks_since_send>.
@@ -992,7 +992,7 @@ Unit <burst_traffic_controller> synthesized.
 
 
 Synthesizing Unit <reset_mgr>.
-    Related source file is "D:/cbradford/DoubleClock/oei/reset_mgr.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/reset_mgr.vhd".
     Found 1-bit register for signal <reset>.
     Found 16-bit up counter for signal <cnt>.
     Found 16-bit comparator less for signal <cnt$cmp_lt0000> created at line 46.
@@ -1005,7 +1005,7 @@ Unit <reset_mgr> synthesized.
 
 
 Synthesizing Unit <MII_100_1000_handler>.
-    Related source file is "D:/cbradford/DoubleClock/oei/xmii_handler.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/xmii_handler.vhd".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <MII_100_1000_handler> synthesized.
@@ -1137,7 +1137,7 @@ Unit <crc_gen> synthesized.
 
 
 Synthesizing Unit <crc_splice>.
-    Related source file is "D:/cbradford/DoubleClock/oei/crc_splice.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/crc_splice.vhd".
     Found 1-bit register for signal <tx_en>.
     Found 8-bit register for signal <txd>.
     Found 1-bit register for signal <tx_er>.
@@ -1149,7 +1149,7 @@ Unit <crc_splice> synthesized.
 
 
 Synthesizing Unit <address_container>.
-    Related source file is "D:/cbradford/DoubleClock/oei/address_container.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/address_container.vhd".
     Found 1-bit register for signal <set_data_dest_strobe>.
     Found 1-bit register for signal <protocol_ping_strobe>.
     Found 1-bit register for signal <set_ctrl_dest_strobe>.
@@ -1160,7 +1160,7 @@ Unit <address_container> synthesized.
 
 
 Synthesizing Unit <arp_reply>.
-    Related source file is "D:/cbradford/DoubleClock/oei/arp_reply.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/arp_reply.vhd".
 WARNING:Xst:1780 - Signal <old_trig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found finite state machine <FSM_0> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1196,12 +1196,12 @@ Unit <arp_reply> synthesized.
 
 
 Synthesizing Unit <or33>.
-    Related source file is "D:/cbradford/DoubleClock/oei/or33.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/or33.vhd".
 Unit <or33> synthesized.
 
 
 Synthesizing Unit <ip_checksum_calc>.
-    Related source file is "D:/cbradford/DoubleClock/oei/ip_checksum_calc.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/ip_checksum_calc.vhd".
     Found 17-bit register for signal <add_sig>.
     Found 4-bit comparator greater for signal <add_sig$cmp_gt0000> created at line 104.
     Found 17-bit register for signal <cs_sig>.
@@ -1219,7 +1219,7 @@ Unit <ip_checksum_calc> synthesized.
 
 
 Synthesizing Unit <create_packet>.
-    Related source file is "D:/cbradford/DoubleClock/oei/create_packet.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/create_packet.vhd".
     Found finite state machine <FSM_1> for signal <Sreg0>.
     -----------------------------------------------------------------------
     | States             | 76                                             |
@@ -1274,12 +1274,12 @@ Unit <create_packet> synthesized.
 
 
 Synthesizing Unit <dataout_mux>.
-    Related source file is "D:/cbradford/DoubleClock/oei/dataout_mux.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/dataout_mux.vhd".
 Unit <dataout_mux> synthesized.
 
 
 Synthesizing Unit <decipherer>.
-    Related source file is "D:/cbradford/DoubleClock/oei/decipherer.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/decipherer.vhd".
 WARNING:Xst:1780 - Signal <udp_dest_ip_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found finite state machine <FSM_2> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1355,7 +1355,7 @@ Unit <decipherer> synthesized.
 
 
 Synthesizing Unit <filter_data_out>.
-    Related source file is "D:/cbradford/DoubleClock/oei/filter_data_out.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/filter_data_out.vhd".
     Found 1-bit register for signal <out_data_valid>.
     Found 8-bit register for signal <out_data>.
     Summary:
@@ -1364,7 +1364,7 @@ Unit <filter_data_out> synthesized.
 
 
 Synthesizing Unit <icmp_ping_checksum_calc>.
-    Related source file is "D:/cbradford/DoubleClock/oei/icmp_ping_checksum_calc.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/icmp_ping_checksum_calc.vhd".
 WARNING:Xst:647 - Input <trigger> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found finite state machine <FSM_3> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1393,7 +1393,7 @@ Unit <icmp_ping_checksum_calc> synthesized.
 
 
 Synthesizing Unit <icmp_ping_shift_reg>.
-    Related source file is "D:/cbradford/DoubleClock/oei/icmp_ping_shift_reg.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/icmp_ping_shift_reg.vhd".
     Found 8-bit register for signal <din_latch>.
     Found 352-bit register for signal <shReg>.
 INFO:Xst:738 - HDL ADVISOR - 352 flip-flops were inferred for signal <shReg>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
@@ -1403,7 +1403,7 @@ Unit <icmp_ping_shift_reg> synthesized.
 
 
 Synthesizing Unit <udp_data_splicer>.
-    Related source file is "D:/cbradford/DoubleClock/oei/udp_data_splicer.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/udp_data_splicer.vhd".
     Found 1-bit register for signal <delay_sel_user>.
     Found 8-bit register for signal <latched_user_data>.
     Summary:
@@ -1412,12 +1412,12 @@ Unit <udp_data_splicer> synthesized.
 
 
 Synthesizing Unit <user_addrs_mux>.
-    Related source file is "D:/cbradford/DoubleClock/oei/user_addrs_mux.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/user_addrs_mux.vhd".
 Unit <user_addrs_mux> synthesized.
 
 
 Synthesizing Unit <burst_controller_sm>.
-    Related source file is "D:/cbradford/DoubleClock/oei/burst_controller_sm.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/burst_controller_sm.vhd".
     Register <tx_info_we> equivalent to <reset_packet_size> has been removed
     Found finite state machine <FSM_4> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1451,7 +1451,7 @@ Unit <burst_controller_sm> synthesized.
 
 
 Synthesizing Unit <rx_ctl>.
-    Related source file is "D:/cbradford/DoubleClock/oei/rx_ctl.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/rx_ctl.vhd".
     Register <info_fifo_wr_data<0>> equivalent to <com_code> has been removed
     Found finite state machine <FSM_5> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1491,7 +1491,7 @@ Unit <rx_ctl> synthesized.
 
 
 Synthesizing Unit <ram_comm_dec>.
-    Related source file is "D:/cbradford/DoubleClock/oei/ram_comm_dec.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/ram_comm_dec.vhd".
 WARNING:Xst:647 - Input <rx_info_fifo_rd_data<6:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <tx_info_fifo_full> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Register <tx_info_fifo_wr_data<6>> equivalent to <crc_err> has been removed
@@ -1549,7 +1549,7 @@ Unit <ram_comm_dec> synthesized.
 
 
 Synthesizing Unit <tx_seq_ctl>.
-    Related source file is "D:/cbradford/DoubleClock/oei/tx_seq_ctl.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/tx_seq_ctl.vhd".
 WARNING:Xst:647 - Input <data_fifo_empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found finite state machine <FSM_7> for signal <Sreg0>.
     -----------------------------------------------------------------------
@@ -1594,27 +1594,27 @@ Unit <tx_seq_ctl> synthesized.
 
 
 Synthesizing Unit <D4_16E_MXILINX_TOP_LEVEL>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf".
 Unit <D4_16E_MXILINX_TOP_LEVEL> synthesized.
 
 
 Synthesizing Unit <M2_1_MXILINX_TOP_LEVEL>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf".
 Unit <M2_1_MXILINX_TOP_LEVEL> synthesized.
 
 
 Synthesizing Unit <FD16RE_MXILINX_TOP_LEVEL>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf".
 Unit <FD16RE_MXILINX_TOP_LEVEL> synthesized.
 
 
 Synthesizing Unit <FD8RE_MXILINX_TOP_LEVEL>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf".
 Unit <FD8RE_MXILINX_TOP_LEVEL> synthesized.
 
 
 Synthesizing Unit <data_manager>.
-    Related source file is "D:/cbradford/DoubleClock/oei/data_manager.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/data_manager.vhd".
 WARNING:Xst:1780 - Signal <tx_data_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <tx_ctrl_fifo_rden> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <tx_ctrl_fifo_full> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1632,13 +1632,13 @@ Unit <data_manager> synthesized.
 
 
 Synthesizing Unit <ethernet_controller>.
-    Related source file is "D:/cbradford/DoubleClock/oei/ethernet_controller.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/ethernet_controller.vhd".
 WARNING:Xst:647 - Input <self_port> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <ethernet_controller> synthesized.
 
 
 Synthesizing Unit <ethernet_controller_wrapper>.
-    Related source file is "D:/cbradford/DoubleClock/oei/ethernet_controller_wrapper.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/ethernet_controller_wrapper.vhd".
 WARNING:Xst:1780 - Signal <GMII_RXD_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found 2-bit down counter for signal <tmp_cnt>.
     Found 1-bit register for signal <tmp_rd_sig>.
@@ -1649,7 +1649,7 @@ Unit <ethernet_controller_wrapper> synthesized.
 
 
 Synthesizing Unit <ethernet_interface>.
-    Related source file is "D:/cbradford/DoubleClock/oei/ethernet_interface.vhd".
+    Related source file is "D:/cbradford/DoubleClockNew/oei/ethernet_interface.vhd".
 WARNING:Xst:646 - Signal <user_tx_rden> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <user_rx_size_out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <user_addr> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
@@ -1704,7 +1704,7 @@ Unit <ethernet_interface> synthesized.
 
 
 Synthesizing Unit <TOP_LEVEL>.
-    Related source file is "D:/cbradford/DoubleClock/GEL_CAPTAN/TOP_LEVEL.vhf".
+    Related source file is "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf".
 WARNING:Xst:653 - Signal <trig_debug<63:32>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
 WARNING:Xst:646 - Signal <rx_addr<31:13>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <rx_addr<7:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -3138,12 +3138,12 @@ Delay:               5.299ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 65.00 secs
-Total CPU time to Xst completion: 65.04 secs
+Total REAL time to Xst completion: 68.00 secs
+Total CPU time to Xst completion: 68.05 secs
  
 --> 
 
-Total memory usage is 660108 kilobytes
+Total memory usage is 659148 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  297 (   0 filtered)
