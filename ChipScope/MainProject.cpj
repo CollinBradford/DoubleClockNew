@@ -1,5 +1,5 @@
 #ChipScope Pro Analyzer Project File, Version 3.0
-#Fri Mar 24 13:54:39 CDT 2017
+#Fri Mar 24 16:49:38 CDT 2017
 device.1.configFileDir=C\:\\Users\\Collin\\Fermilab\\DoubleClockNew\\GEL_CAPTAN
 device.1.configFilename=top_level.bit
 device.1.inserterCDCFileDir=C\:\\Users\\Collin\\Fermilab\\DoubleClockNew\\GEL_CAPTAN
@@ -36,8 +36,8 @@ unit.1.0.1.HEIGHT1=0.9743355
 unit.1.0.1.WIDTH1=1.0073414
 unit.1.0.1.X1=-0.0031463031
 unit.1.0.1.Y1=0.025664529
-unit.1.0.MFBitsA0=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-unit.1.0.MFBitsB0=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+unit.1.0.MFBitsA0=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+unit.1.0.MFBitsB0=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 unit.1.0.MFCompareA0=0
 unit.1.0.MFCompareB0=999
 unit.1.0.MFCount=1
@@ -67,7 +67,7 @@ unit.1.0.port.-1.b.0.channellist=178 179 180 181 182 183 184 185
 unit.1.0.port.-1.b.0.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.-1.b.0.name=/data_send_delay_time
 unit.1.0.port.-1.b.0.orderindex=-1
-unit.1.0.port.-1.b.0.radix=Hex
+unit.1.0.port.-1.b.0.radix=Unsigned
 unit.1.0.port.-1.b.0.signedOffset=0.0
 unit.1.0.port.-1.b.0.signedPrecision=0
 unit.1.0.port.-1.b.0.signedScaleFactor=1.0
@@ -137,7 +137,7 @@ unit.1.0.port.-1.b.5.channellist=12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27
 unit.1.0.port.-1.b.5.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.-1.b.5.name=/read_size
 unit.1.0.port.-1.b.5.orderindex=-1
-unit.1.0.port.-1.b.5.radix=Hex
+unit.1.0.port.-1.b.5.radix=Unsigned
 unit.1.0.port.-1.b.5.signedOffset=0.0
 unit.1.0.port.-1.b.5.signedPrecision=0
 unit.1.0.port.-1.b.5.signedScaleFactor=1.0
@@ -160,8 +160,22 @@ unit.1.0.port.-1.b.6.unsignedOffset=0.0
 unit.1.0.port.-1.b.6.unsignedPrecision=0
 unit.1.0.port.-1.b.6.unsignedScaleFactor=1.0
 unit.1.0.port.-1.b.6.visible=1
-unit.1.0.port.-1.buscount=7
-unit.1.0.port.-1.channelcount=186
+unit.1.0.port.-1.b.7.alias=DataPort
+unit.1.0.port.-1.b.7.channellist=186 187
+unit.1.0.port.-1.b.7.color=java.awt.Color[r\=0,g\=0,b\=124]
+unit.1.0.port.-1.b.7.name=DataPort
+unit.1.0.port.-1.b.7.orderindex=-1
+unit.1.0.port.-1.b.7.radix=Hex
+unit.1.0.port.-1.b.7.signedOffset=0.0
+unit.1.0.port.-1.b.7.signedPrecision=0
+unit.1.0.port.-1.b.7.signedScaleFactor=1.0
+unit.1.0.port.-1.b.7.tokencount=0
+unit.1.0.port.-1.b.7.unsignedOffset=0.0
+unit.1.0.port.-1.b.7.unsignedPrecision=0
+unit.1.0.port.-1.b.7.unsignedScaleFactor=1.0
+unit.1.0.port.-1.b.7.visible=1
+unit.1.0.port.-1.buscount=8
+unit.1.0.port.-1.channelcount=188
 unit.1.0.port.-1.s.0.alias=
 unit.1.0.port.-1.s.0.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.-1.s.0.name=/psi_status<0>
@@ -464,7 +478,7 @@ unit.1.0.port.-1.s.151.orderindex=-1
 unit.1.0.port.-1.s.151.visible=0
 unit.1.0.port.-1.s.152.alias=
 unit.1.0.port.-1.s.152.color=java.awt.Color[r\=0,g\=0,b\=124]
-unit.1.0.port.-1.s.152.name=/ethernet_data_out<39>
+unit.1.0.port.-1.s.152.name=/ethernet_data_out<40>
 unit.1.0.port.-1.s.152.orderindex=-1
 unit.1.0.port.-1.s.152.visible=0
 unit.1.0.port.-1.s.153.alias=
@@ -649,9 +663,14 @@ unit.1.0.port.-1.s.185.orderindex=-1
 unit.1.0.port.-1.s.185.visible=0
 unit.1.0.port.-1.s.186.alias=
 unit.1.0.port.-1.s.186.color=java.awt.Color[r\=0,g\=0,b\=124]
-unit.1.0.port.-1.s.186.name=/data_send_delay_time<7>
+unit.1.0.port.-1.s.186.name=DataPort[186]
 unit.1.0.port.-1.s.186.orderindex=-1
 unit.1.0.port.-1.s.186.visible=0
+unit.1.0.port.-1.s.187.alias=
+unit.1.0.port.-1.s.187.color=java.awt.Color[r\=0,g\=0,b\=124]
+unit.1.0.port.-1.s.187.name=DataPort[187]
+unit.1.0.port.-1.s.187.orderindex=-1
+unit.1.0.port.-1.s.187.visible=0
 unit.1.0.port.-1.s.19.alias=
 unit.1.0.port.-1.s.19.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.-1.s.19.name=/read_size<7>
@@ -1098,7 +1117,7 @@ unit.1.0.port.-1.s.99.name=/fadc_fifo_data_out<50>
 unit.1.0.port.-1.s.99.orderindex=-1
 unit.1.0.port.-1.s.99.visible=0
 unit.1.0.port.0.b.0.alias=
-unit.1.0.port.0.b.0.channellist=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185
+unit.1.0.port.0.b.0.channellist=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187
 unit.1.0.port.0.b.0.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.0.b.0.name=TriggerPort0
 unit.1.0.port.0.b.0.orderindex=-1
@@ -1111,7 +1130,7 @@ unit.1.0.port.0.b.0.unsignedPrecision=0
 unit.1.0.port.0.b.0.unsignedScaleFactor=1.0
 unit.1.0.port.0.b.0.visible=1
 unit.1.0.port.0.buscount=1
-unit.1.0.port.0.channelcount=186
+unit.1.0.port.0.channelcount=188
 unit.1.0.port.0.s.0.alias=
 unit.1.0.port.0.s.0.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.0.s.0.name=/psi_status<0>
@@ -1414,7 +1433,7 @@ unit.1.0.port.0.s.151.orderindex=-1
 unit.1.0.port.0.s.151.visible=1
 unit.1.0.port.0.s.152.alias=
 unit.1.0.port.0.s.152.color=java.awt.Color[r\=0,g\=0,b\=124]
-unit.1.0.port.0.s.152.name=/ethernet_data_out<39>
+unit.1.0.port.0.s.152.name=/ethernet_data_out<40>
 unit.1.0.port.0.s.152.orderindex=-1
 unit.1.0.port.0.s.152.visible=1
 unit.1.0.port.0.s.153.alias=
@@ -1599,9 +1618,14 @@ unit.1.0.port.0.s.185.orderindex=-1
 unit.1.0.port.0.s.185.visible=1
 unit.1.0.port.0.s.186.alias=
 unit.1.0.port.0.s.186.color=java.awt.Color[r\=0,g\=0,b\=124]
-unit.1.0.port.0.s.186.name=/data_send_delay_time<7>
+unit.1.0.port.0.s.186.name=TriggerPort0[186]
 unit.1.0.port.0.s.186.orderindex=-1
 unit.1.0.port.0.s.186.visible=1
+unit.1.0.port.0.s.187.alias=
+unit.1.0.port.0.s.187.color=java.awt.Color[r\=0,g\=0,b\=124]
+unit.1.0.port.0.s.187.name=TriggerPort0[187]
+unit.1.0.port.0.s.187.orderindex=-1
+unit.1.0.port.0.s.187.visible=1
 unit.1.0.port.0.s.19.alias=
 unit.1.0.port.0.s.19.color=java.awt.Color[r\=0,g\=0,b\=124]
 unit.1.0.port.0.s.19.name=/read_size<7>
@@ -2073,7 +2097,7 @@ unit.1.0.waveform.posn.1.radix=1
 unit.1.0.waveform.posn.1.type=signal
 unit.1.0.waveform.posn.10.channel=2147483646
 unit.1.0.waveform.posn.10.name=/read_size
-unit.1.0.waveform.posn.10.radix=1
+unit.1.0.waveform.posn.10.radix=4
 unit.1.0.waveform.posn.10.type=bus
 unit.1.0.waveform.posn.100.channel=137
 unit.1.0.waveform.posn.100.name=/ethernet_data_out<24>
@@ -2320,7 +2344,7 @@ unit.1.0.waveform.posn.49.name=/ethernet_data_out<24>
 unit.1.0.waveform.posn.49.type=signal
 unit.1.0.waveform.posn.5.channel=2147483646
 unit.1.0.waveform.posn.5.name=/data_send_delay_time
-unit.1.0.waveform.posn.5.radix=1
+unit.1.0.waveform.posn.5.radix=4
 unit.1.0.waveform.posn.5.type=bus
 unit.1.0.waveform.posn.50.channel=137
 unit.1.0.waveform.posn.50.name=/ethernet_data_out<24>
