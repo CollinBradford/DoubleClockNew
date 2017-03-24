@@ -8,16 +8,19 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/TOP_LEVEL C:|Users|Collin|Fermilab|NewADCFirmware|GEL_CAPTAN|TOP_LEVEL.sch/XLXI_6227 - ethernet_interface - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/TOP_LEVEL D:|cbradford|DoubleClockNew|GEL_CAPTAN|TOP_LEVEL.sch/XLXI_6227 - ethernet_interface - BEHAVIORAL</ClosedNode>
          <ClosedNode>/TOP_LEVEL D:|cbradford|FiFoFix|GEL_CAPTAN|TOP_LEVEL.sch/XLXI_6227 - ethernet_interface - BEHAVIORAL</ClosedNode>
          <ClosedNode>/TOP_LEVEL D:|cbradford|NewADCFirmware|GEL_CAPTAN|TOP_LEVEL.sch/XLXI_6227 - ethernet_interface - BEHAVIORAL</ClosedNode>
          <ClosedNode>/TOP_LEVEL D:|cbradford|SignalProcessing|GEL_CAPTAN|TOP_LEVEL.sch/XLXI_6227 - ethernet_interface - BEHAVIORAL</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <SelectedItems>
+         <SelectedItem>TOP_LEVEL (D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c70000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TOP_LEVEL (D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.sch)</CurrentItem>
+      <CurrentItem>TOP_LEVEL (D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
       <ClosedNodes>
@@ -34,13 +37,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Generate Programming File</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000176000000010000000100000000000000000000000064ffffffff000000810000000000000001000001760000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Generate Programming File</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -49,7 +52,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000bb0000000100000000000000d70000000100000000000000660000000100000000000000850000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000bb0000000100000000000000d700000001000000000000006600000001000000000000019a0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>ADC_FIFO.xco</CurrentItem>
    </ItemView>
@@ -124,13 +127,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000176000000010000000100000000000000000000000064ffffffff000000810000000000000001000001760000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000001ff0000020801000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

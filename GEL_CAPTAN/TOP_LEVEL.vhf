@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 03/15/2017 14:39:44
+-- /___/   /\     Timestamp : 03/24/2017 13:27:44
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -656,11 +656,7 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal dcm_reset_2               : std_logic;
    signal EbufValid                 : std_logic;
    signal ethernet_data_out         : std_logic_vector (63 downto 0);
-   signal ethernet_fifo_din         : std_logic_vector (15 downto 0);
-   signal ethernet_fifo_din1        : std_logic_vector (31 downto 16);
-   signal ethernet_fifo_din2        : std_logic_vector (47 downto 32);
-   signal ethernet_fifo_din3        : std_logic_vector (63 downto 48);
-   signal ethernet_fifo_din4        : std_logic_vector (63 downto 0);
+   signal ethernet_fifo_din         : std_logic_vector (63 downto 0);
    signal ethernet_fifo_empty       : std_logic;
    signal ethernet_fifo_in_en       : std_logic;
    signal ethernet_fifo_in_en1      : std_logic;
@@ -750,7 +746,6 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal XLXN_15130                : std_logic;
    signal XLXN_15140                : std_logic;
    signal XLXN_15150                : std_logic;
-   signal XLXN_15364                : std_logic;
    signal XLXN_15479                : std_logic_vector (63 downto 0);
    signal XLXN_15480                : std_logic_vector (63 downto 0);
    signal XLXN_15481                : std_logic_vector (63 downto 0);
@@ -767,6 +762,7 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal XLXN_15552                : std_logic;
    signal XLXN_15554                : std_logic;
    signal XLXN_15557                : std_logic;
+   signal XLXN_15560                : std_logic;
    signal XLXI_5338_in3_openSignal  : std_logic_vector (63 downto 0);
    signal XLXI_5338_in4_openSignal  : std_logic_vector (63 downto 0);
    signal XLXI_5338_in5_openSignal  : std_logic_vector (63 downto 0);
@@ -1913,15 +1909,15 @@ begin
                 Q(7 downto 0)=>threshold(7 downto 0));
    
    XLXI_6248 : ethernet_FIFO
-      port map (din(63 downto 0)=>ethernet_fifo_din4(63 downto 0),
+      port map (din(63 downto 0)=>ethernet_fifo_din(63 downto 0),
                 rd_clk=>MASTER_CLK,
                 rd_en=>b_data_we,
                 rst=>reset,
                 wr_clk=>MASTER_CLK,
-                wr_en=>ethernet_fifo_in_en,
+                wr_en=>XLXN_15560,
                 dout(63 downto 0)=>ethernet_data_out(63 downto 0),
                 empty=>ethernet_fifo_empty,
-                full=>XLXN_15364,
+                full=>open,
                 overflow=>ethernet_overflow,
                 valid=>EbufValid);
    
@@ -2071,7 +2067,7 @@ begin
                 reset=>reset,
                 signal_threshold(7 downto 0)=>threshold(7 downto 0),
                 user_samples_after_trig(15 downto 0)=>read_size(15 downto 0),
-                data_out(15 downto 0)=>ethernet_fifo_din1(31 downto 16),
+                data_out(15 downto 0)=>ethernet_fifo_din(31 downto 16),
                 out_enable=>ethernet_fifo_in_en2,
                 sig_compare_test=>XLXN_15557);
    
@@ -2081,7 +2077,7 @@ begin
                 reset=>reset,
                 signal_threshold(7 downto 0)=>threshold(7 downto 0),
                 user_samples_after_trig(15 downto 0)=>read_size(15 downto 0),
-                data_out(15 downto 0)=>ethernet_fifo_din2(47 downto 32),
+                data_out(15 downto 0)=>ethernet_fifo_din(47 downto 32),
                 out_enable=>ethernet_fifo_in_en3,
                 sig_compare_test=>XLXN_15554);
    
@@ -2091,7 +2087,7 @@ begin
                 reset=>reset,
                 signal_threshold(7 downto 0)=>threshold(7 downto 0),
                 user_samples_after_trig(15 downto 0)=>read_size(15 downto 0),
-                data_out(15 downto 0)=>ethernet_fifo_din3(63 downto 48),
+                data_out(15 downto 0)=>ethernet_fifo_din(63 downto 48),
                 out_enable=>ethernet_fifo_in_en4,
                 sig_compare_test=>XLXN_15552);
    
@@ -2104,6 +2100,9 @@ begin
                 I2=>ethernet_fifo_in_en2,
                 I3=>ethernet_fifo_in_en1,
                 O=>ethernet_fifo_in_en);
+   
+   XLXI_6349 : VCC
+      port map (P=>XLXN_15560);
    
 end BEHAVIORAL;
 

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: TOP_LEVEL.prj
 
@@ -357,13 +357,13 @@ Analyzing Entity <TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
     Set user-defined property "FACTORY_JF =  F0F0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "PHASE_SHIFT =  0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "STARTUP_WAIT =  FALSE" for instance <XLXI_3410> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1248: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1244: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_3432_0" for instance <XLXI_3432> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_4136> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_4136> in unit <TOP_LEVEL>.
@@ -503,7 +503,7 @@ WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 12
     Set user-defined property "DRIVE =  12" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  FAST" for instance <XLXI_5999> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1522: Unconnected output port 'O' of component 'M2_1_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1518: Unconnected output port 'O' of component 'M2_1_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_6004_1" for instance <XLXI_6004> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6016> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6025> in unit <TOP_LEVEL>.
@@ -639,7 +639,8 @@ WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 15
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "HU_SET =  XLXI_6247_6" for instance <XLXI_6247> in unit <TOP_LEVEL>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1915: Instantiating black box module <ethernet_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1911: Unconnected output port 'full' of component 'ethernet_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1911: Instantiating black box module <ethernet_FIFO>.
     Set user-defined property "HU_SET =  XLXI_6251_5" for instance <XLXI_6251> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_6291> in unit <TOP_LEVEL>.
     Set user-defined property "DRIVE =  12" for instance <XLXI_6291> in unit <TOP_LEVEL>.
@@ -661,7 +662,7 @@ WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 1
     Set user-defined property "DRIVE =  12" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6339> in unit <TOP_LEVEL>.
-WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 2053: Instantiating black box module <ADC_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Instantiating black box module <ADC_FIFO>.
 Entity <TOP_LEVEL> analyzed. Unit <TOP_LEVEL> generated.
 
 Analyzing Entity <D4_16E_MXILINX_TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
@@ -1728,11 +1729,7 @@ WARNING:Xst:653 - Signal <fadc_debug<23:22>> is used but never assigned. This so
 WARNING:Xst:653 - Signal <fadc_debug<11:10>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
 WARNING:Xst:1780 - Signal <fadc_data_in<31:16>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <fadc_ctrl_data<13:12>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:653 - Signal <ethernet_fifo_din4> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
-WARNING:Xst:646 - Signal <ethernet_fifo_din3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ethernet_fifo_din2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ethernet_fifo_din1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ethernet_fifo_din> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ethernet_fifo_in_en> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <clk_latch_signals> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <b_end_packet> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <adc_data_in> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1748,7 +1745,6 @@ WARNING:Xst:653 - Signal <XLXN_15483> is used but never assigned. This sourceles
 WARNING:Xst:653 - Signal <XLXN_15481> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
 WARNING:Xst:653 - Signal <XLXN_15480> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
 WARNING:Xst:653 - Signal <XLXN_15479> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
-WARNING:Xst:646 - Signal <XLXN_15364> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <XLXI_5338_in7_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
 WARNING:Xst:653 - Signal <XLXI_5338_in6_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
 WARNING:Xst:653 - Signal <XLXI_5338_in5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
@@ -2935,7 +2931,7 @@ Offset:              2.913ns (Levels of Logic = 2)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'GEL_RXCLK'
   Clock period: 7.298ns (frequency: 137.021MHz)
-  Total number of paths / destination ports: 134713 / 7188
+  Total number of paths / destination ports: 134565 / 7252
 -------------------------------------------------------------------------
 Delay:               7.298ns (Levels of Logic = 14)
   Source:            XLXI_6227/data_manager_blk/RAM_COMM_DEC/ram_addr_sig_53 (FF)
@@ -3138,14 +3134,14 @@ Delay:               5.299ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 68.00 secs
-Total CPU time to Xst completion: 68.05 secs
+Total REAL time to Xst completion: 65.00 secs
+Total CPU time to Xst completion: 64.83 secs
  
 --> 
 
-Total memory usage is 659148 kilobytes
+Total memory usage is 663956 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  297 (   0 filtered)
+Number of warnings :  293 (   0 filtered)
 Number of infos    :  134 (   0 filtered)
 

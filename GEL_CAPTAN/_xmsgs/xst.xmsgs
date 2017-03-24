@@ -5,34 +5,37 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D10</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D10</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D11</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D11</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D12</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D12</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D13</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D13</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D14</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D14</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D15</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D15</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1248</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D9</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1244</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D9</arg>&apos; of component &apos;<arg fmt="%s" index="4">D4_16E_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1522</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">O</arg>&apos; of component &apos;<arg fmt="%s" index="4">M2_1_MXILINX_TOP_LEVEL</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1518</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">O</arg>&apos; of component &apos;<arg fmt="%s" index="4">M2_1_MXILINX_TOP_LEVEL</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1915</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ethernet_FIFO</arg>&gt;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1911</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">ethernet_FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">2053</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ADC_FIFO</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">1911</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ethernet_FIFO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/GEL_CAPTAN/TOP_LEVEL.vhf</arg>&quot; line <arg fmt="%d" index="2">2049</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ADC_FIFO</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/cbradford/DoubleClockNew/oei/ethernet_interface.vhd</arg>&quot; line <arg fmt="%d" index="2">145</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">udp_fwd_port</arg>&apos; of component &apos;<arg fmt="%s" index="4">ethernet_controller_wrapper</arg>&apos;.
@@ -387,19 +390,7 @@
 <msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">fadc_ctrl_data&lt;13:12&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_din4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_din3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_din2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_din1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_din</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ethernet_fifo_in_en</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clk_latch_signals</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -445,9 +436,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXN_15479</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXN_15364</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_5338_in7_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
