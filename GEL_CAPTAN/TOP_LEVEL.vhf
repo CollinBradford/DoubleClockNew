@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 03/24/2017 13:27:44
+-- /___/   /\     Timestamp : 03/24/2017 14:03:07
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -762,7 +762,6 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal XLXN_15552                : std_logic;
    signal XLXN_15554                : std_logic;
    signal XLXN_15557                : std_logic;
-   signal XLXN_15560                : std_logic;
    signal XLXI_5338_in3_openSignal  : std_logic_vector (63 downto 0);
    signal XLXI_5338_in4_openSignal  : std_logic_vector (63 downto 0);
    signal XLXI_5338_in5_openSignal  : std_logic_vector (63 downto 0);
@@ -1914,7 +1913,7 @@ begin
                 rd_en=>b_data_we,
                 rst=>reset,
                 wr_clk=>MASTER_CLK,
-                wr_en=>XLXN_15560,
+                wr_en=>ethernet_fifo_in_en,
                 dout(63 downto 0)=>ethernet_data_out(63 downto 0),
                 empty=>ethernet_fifo_empty,
                 full=>open,
@@ -2100,9 +2099,6 @@ begin
                 I2=>ethernet_fifo_in_en2,
                 I3=>ethernet_fifo_in_en1,
                 O=>ethernet_fifo_in_en);
-   
-   XLXI_6349 : VCC
-      port map (P=>XLXN_15560);
    
 end BEHAVIORAL;
 

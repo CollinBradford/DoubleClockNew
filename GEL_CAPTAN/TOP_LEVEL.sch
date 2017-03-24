@@ -298,7 +298,6 @@
         <signal name="ethernet_fifo_in_en4" />
         <signal name="ethernet_fifo_din(63:0)" />
         <signal name="XLXN_15558" />
-        <signal name="XLXN_15560" />
         <port polarity="Input" name="BUSC_16DP_32S" />
         <port polarity="Input" name="SECONDARY_CLK" />
         <port polarity="Output" name="BUSC_25DN_51S" />
@@ -1795,7 +1794,7 @@
             <blockpin signalname="reset" name="rst" />
             <blockpin signalname="MASTER_CLK" name="wr_clk" />
             <blockpin signalname="ethernet_fifo_din(63:0)" name="din(63:0)" />
-            <blockpin signalname="XLXN_15560" name="wr_en" />
+            <blockpin signalname="ethernet_fifo_in_en" name="wr_en" />
             <blockpin name="full" />
             <blockpin signalname="ethernet_overflow" name="overflow" />
             <blockpin signalname="MASTER_CLK" name="rd_clk" />
@@ -1964,9 +1963,6 @@
             <blockpin signalname="ethernet_fifo_in_en2" name="I2" />
             <blockpin signalname="ethernet_fifo_in_en1" name="I3" />
             <blockpin signalname="ethernet_fifo_in_en" name="O" />
-        </block>
-        <block symbolname="vcc" name="XLXI_6349">
-            <blockpin signalname="XLXN_15560" name="P" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
@@ -2877,12 +2873,9 @@
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="4064" y="288" type="branch" />
             <wire x2="4064" y1="288" y2="288" x1="4048" />
         </branch>
-        <instance x="4784" y="704" name="XLXI_6349" orien="R0" />
-        <branch name="XLXN_15560">
-            <wire x2="4752" y1="544" y2="784" x1="4752" />
-            <wire x2="4848" y1="784" y2="784" x1="4752" />
-            <wire x2="4976" y1="544" y2="544" x1="4752" />
-            <wire x2="4848" y1="704" y2="784" x1="4848" />
+        <branch name="ethernet_fifo_in_en">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4944" y="544" type="branch" />
+            <wire x2="4976" y1="544" y2="544" x1="4944" />
         </branch>
     </sheet>
     <sheet sheetnum="4" width="7040" height="5440">
